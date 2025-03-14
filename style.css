@@ -53,23 +53,24 @@ strong{
 }
 
 .mainpage{
-    margin-right: 4em;
     display: flex;
     justify-content: center;
-    padding: 4em;
+    padding: 0;
     font-size: 2em;
 }
 
 #description{
+    padding-top: 2em;
     text-align:center;
     font-weight: 300;
 }
 
-#sub-sub-heading{
+#paragraph{
     color: rgb(71, 68, 68);
     font-size: 0.5em;
     font-weight: lighter;
     text-align: center;
+    font-size: 3vh;
 }
 
 .try-now{
@@ -78,7 +79,7 @@ strong{
     background-color:rgb(50, 99, 99) ;
     box-shadow: 0.2em 0.2em 0.4em grey;
     color: white;
-    margin-left: 18em;
+    margin: 40em;
     font-size: 0.5em;
     padding: 0.8em;
 }
@@ -89,7 +90,136 @@ strong{
     transition: 0.5s ease-in-out;
 }
 
+#team-collab{
+    margin-left: 8em;   
+}
+
+.about{
+    background: rgb(198, 223, 223) ;
+    text-align: center;
+    border: 1px solid transparent;
+    box-shadow: 0.2em 0.2em 0.6em rgb(50, 99, 99);
+    padding-bottom: 2em;
+}
 
 
+#about-content{
+    margin-left: 2em;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+}
 
+#about-paragraph{
+    color: rgb(39, 58, 58) ;
+    margin-top: 5em;
+    padding: 1em;
+    margin: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+#about-img{
+    border: 1px solid transparent;
+    border-radius: 20%;
+    box-shadow: 0.1em 0.1em 0.5em 0.1em rgb(42, 83, 83);
+}
+
+#about-title{
+    font-size: 5vh;
+}
+
+
+.keyfeatures-heading{
+    font-size: 4vh;
+    padding-top: 2em;
+    text-align: center;
+}
+
+b{
+    color: rgb(50, 99, 99) ;
+}
+
+.key-features{
+    color: rgb(47, 85, 85) ;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: row;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    padding: 2.2em;
+    border: 0.1em solid transparent;
+    border-radius: 20%;
+    box-shadow: 0.5em 0.5em 0.5em rgb(50, 99, 99);
+}
+
+.key-features:hover{
+    color: white;
+    background: rgb(50, 99, 99) ;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.tickit-flow{
+    background: rgb(198, 223, 223) ;
+    padding-top: 4em ;
+    padding-bottom: 2em;
+}
+
+.benefits{
+    margin: 2em 2em 2em 2.6em;
+    color: rgb(47, 85, 85) ;
+    background-color: rgb(249, 246, 246);
+    padding: 2em;
+    display: inline-block;
+    flex-direction: row;
+    border: 1px solid transparent;
+    border-radius: 20%;
+    box-shadow: 0.5em 0.5em 0.5em rgb(50, 99, 99);
+}
+
+.benefits:hover{
+    color: white;
+    background: rgb(50, 99, 99) ;
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.flow-heading{
+    font-size: 5vh;
+    text-align: center;
+}
+
+.call-to-action{
+    
+    text-align: center;
+  
+}
+
+#callto-action-par{
+    font-size: 3vh;
+    margin: 1em;
+    padding-bottom: 2em;
+}
+
+.get-started,.signup-free{
+    color: rgb(45, 62, 62);
+    border: 0.1em solid transparent;
+    border-radius: 10%;
+    box-shadow: 0.5em 0.5em 0.5em 0.2em rgb(50, 99, 99);
+    padding: 1.2em;
+    margin: 1em;
+    background-color:rgb(198, 223, 223) ;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+
+.social-links{
+    padding: 6em;
+}
+
+#social-par{
+    font-size: 3vh;
+}
 
