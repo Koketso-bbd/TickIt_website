@@ -9,9 +9,8 @@ header{
     gap: 6em;
 }
 
-h1{ 
-    font-weight: 600;
-    font-size: 2em;
+#logo{
+    margin-top: 1em;
 }
 
 a {
@@ -201,6 +200,7 @@ b{
     font-size: 3vh;
     margin: 1em;
     padding-bottom: 2em;
+    color: rgb(37, 62, 62);
 }
 
 .get-started,.signup-free{
@@ -220,6 +220,22 @@ b{
 }
 
 #social-par{
+    color: rgb(37, 62, 62);
     font-size: 3vh;
 }
 
+footer{
+    text-align: center;
+    background-color: rgb(224, 234, 234);
+}
+
+.footer-content{
+    font-size: 0.9em;
+    padding: 0;
+    margin: 1em;
+}
+
+#copyright{
+    font-size: 0.9em;
+    padding-top: 1em;
+}
