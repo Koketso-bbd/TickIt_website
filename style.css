@@ -463,7 +463,6 @@ footer{
         display: flex;
         align-items: center;
         gap: 0.1em;
-        margin: 0;
     }
 
     a {
@@ -522,14 +521,14 @@ footer{
         background-color:rgb(50, 99, 99) ;
         box-shadow: 0.2em 0.2em 0.4em grey;
         color: white;
-        margin: 15em;
+        margin: 20.5em;
         font-size: 0.9vh;
         padding: 1.8em;
     }
 
     #team-collab{
         margin-bottom: 1em;
-        margin-left: 4em;   
+        margin-left: 4.5em;   
     }
     
     .about{
