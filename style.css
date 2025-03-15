@@ -80,7 +80,7 @@ strong{
     color: white;
     margin: 40em;
     font-size: 0.5em;
-    padding: 0.8em;
+    padding-top: 1em;
 }
 
 .try-now:hover{
@@ -90,7 +90,7 @@ strong{
 }
 
 #team-collab{
-    margin-left: 8em;   
+    margin-left: 8em;
 }
 
 .about{
@@ -515,20 +515,25 @@ footer{
         font-size: 2vh;
     }
     
+    
+
+    #team-collab{
+        margin-bottom: 1em;
+        margin-left: 4.5em;   
+    }
+
     .try-now{
         border: 0.1em solid transparent;
         border-radius: 10em;
         background-color:rgb(50, 99, 99) ;
         box-shadow: 0.2em 0.2em 0.4em grey;
         color: white;
-        margin: 20.5em;
-        font-size: 0.9vh;
-        padding: 1.8em;
-    }
-
-    #team-collab{
-        margin-bottom: 1em;
-        margin-left: 4.5em;   
+        display: flex;
+        flex-direction: column;
+        margin:0 0 0 20em ;
+        width: fit-content;
+        font-size: 0.5em;
+        padding: 0.8em;
     }
     
     .about{
