@@ -78,9 +78,10 @@ strong{
     background-color:rgb(50, 99, 99) ;
     box-shadow: 0.2em 0.2em 0.4em grey;
     color: white;
-    margin: 40em;
+    margin-left: 40em;
     font-size: 0.5em;
     padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .try-now:hover{
@@ -499,6 +500,7 @@ footer{
         display: flex;
         justify-content: center;
         padding: 0;
+        margin: 0;
         font-size: 1em;
     }
     
